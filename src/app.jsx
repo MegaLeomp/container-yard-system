@@ -5,7 +5,7 @@ import Login from './components/Login';
 import MinimalMap from './components/MinimalMap';
 import ContainerForm from './components/ContainerForm';
 import ContainerList from './components/ContainerList';
-import Reports from './components/Reports';
+import Reports from './components/Relatorios';
 
 export default function App() {
   const [containers, setContainers] = useState([]);
