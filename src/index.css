@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ESTILOS OBRIGATÓRIOS PARA O LEAFLET FUNCIONAR */
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.leaflet-control-zoom a {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+}
+
+/* Garante que o container do mapa tenha altura */
+.map-container {
+  height: 400px;
+  min-height: 400px;
+}

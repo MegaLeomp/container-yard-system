@@ -1,0 +1,14 @@
+{
+  "containers": [],
+  "yardMap": {},
+  "history": [],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "name": "Administrador"
+    }
+  ]
+}

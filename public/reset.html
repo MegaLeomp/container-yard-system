@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resetar Dados</title>
+</head>
+<body>
+    <h1>Resetar Dados do Sistema</h1>
+    <button onclick="resetData()">Clique para Resetar TUDO</button>
+    
+    <script>
+        function resetData() {
+            localStorage.clear();
+            alert('✅ Todos os dados foram resetados! Feche esta aba e recarregue o sistema.');
+        }
+    </script>
+</body>
+</html>

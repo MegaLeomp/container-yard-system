@@ -1,0 +1,21 @@
+﻿{
+  "name": "Container Yard System",
+  "short_name": "ContainerApp",
+  "description": "Sistema de gerenciamento de pátio de containers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef2f2",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
